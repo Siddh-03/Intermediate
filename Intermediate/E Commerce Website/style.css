@@ -1,0 +1,117 @@
+body{
+    background-color: rgb(49, 63, 63);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    text-align: center;
+    background-color: #292626;
+    color: aliceblue;
+    padding: 10px;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 70%;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    border: black;
+}
+
+.search button{
+    border: none;
+    background-color: #292626;
+    color: aliceblue;
+    padding-top: 7.5px;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* border: 1px solid black; */
+    grid-gap: 10px;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.product-card{
+    /* border: 2.5px solid rgb(146, 53, 53); */
+    background-color: rgb(11, 54, 54);
+    color: azure;
+    /* border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px; */
+    border-radius: 15px;
+    /* padding: 10px; */
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    cursor: pointer;
+    width: 300px;
+}
+.product-card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: 2px solid rgb(63, 78, 78);
+}
+.product-card h3{
+    padding: 10px;
+}
+.product-card #desc{
+    padding: 5px;
+}
+
+.product-card #price{
+    font-weight: 700;
+    color:darkred;
+}
+
+.product-card button{
+    margin: 5px;
+    border: none;
+    border-radius: 15px;
+}
+
+.product-card button:hover{
+    background-color: rgb(63, 78, 78);
+    color: aliceblue;
+    transition: ease-in-out 0.3s;
+}
+.product-card:hover{
+    /* transform: scale(1.02); */
+    transition: ease-in-out 0.3s;
+    box-shadow: 0 0 10px 5px rgb(63, 78, 78);
+}
+
+@media (max-width: 768px) {
+    .main{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 480px) {
+    .main{
+        grid-template-columns: 1fr;
+    }
+    .product-card img{
+        height: 150px;
+    }
+    .product-card h3{
+        font-size: 1.2em;
+    }
+    .product-card #desc{
+        font-size: 0.9em;
+    }
+    .product-card #price{
+        font-size: 1.2em;
+    }
+}

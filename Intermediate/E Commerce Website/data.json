@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "name":"Headphones",
+        "price": 1499,
+        "category": "Electronics",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQc7yPmRiCEJh5W_nwrZR-sOl-M3OsnlRxsPjjzNJM1Qzou-gK1O6DaFM&s",
+        "description": "Noise-canceling wireless headphones with 20 hours battery life.",
+        "rating": 4.5
+    },
+    {
+        "id": 2,
+        "name":"Smart Watch",
+        "price": 2999,
+        "category": "Electronics",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMJ-599pn86m5xQVkWPHrVc2B0BPS76-QKsA&s",
+        "description": "Smart watch with heart rate monitor and 10 days battery life.",
+        "rating": 3.0
+    },
+    {
+        "id": 3,
+        "name": "Cotton T-Shirt",
+        "price": 499,
+        "category": "Clothing",
+        "image": "Lost West Western.jpg",
+        "description": "100% cotton T-shirt with a comfortable fit.",
+        "rating": 4.2
+    },
+    {
+        "id": 4,
+        "name": "Gaming Mouse",
+        "price": 999,
+        "category": "Electronics",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPAeI7bbB6_bGyxIGGxGaYU0KyXna1pY50jw&s",
+        "description": "Ergonomic gaming mouse with customizable RGB lighting.",
+        "rating": 4.7
+    },
+    {
+        "id": 5,
+        "name": "Running Shoes",
+        "price": 2999,
+        "category": "Footwear",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIJQOm-zLHLvk0waqU1HSjo_bAmuR3zb9Crw&s",
+        "description": "Lightweight running shoes with great grip.",
+        "rating": 4.6
+    },
+    {
+        "id": 6,
+        "name": "Backpack",
+        "price": 1999,
+        "category": "Accessories",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCwYBRD-k4aacgRM-I0bsM64TMJQ8AUf4wOA&s",
+        "description": "Waterproof backpack with a separate compartment for shoes.",
+        "rating": 4.0
+    },
+    {
+        "id": 7,
+        "name": "Smartphone",
+        "price": 14999,
+        "category": "Electronics",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZWDwRm9jFWGYcG0r-Z6P7Ngzz4l4WkK4ZTA&s",
+        "description": "Latest smartphone with high-resolution camera and 128GB storage.",
+        "rating": 4.8
+    },
+    {
+        "id": 8,
+        "name": "Leather Wallet",
+        "price": 799,
+        "category": "Accessories",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRxFLjULmn2PpRI1G7Q5oY15ZOe-pbLDmW4g&s", 
+        "description": "Genuine leather wallet with RFID blocking technology.",
+        "rating": 4.3
+    },
+    {
+        "id": 9,
+        "name": "Sunglasses",
+        "price": 599,
+        "category": "Accessories",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBbQmKB-0HkNKVndgi1v0gT4PEITy_kQws3A&s",
+        "description": "Polarized sunglasses with UV protection and scratch-resistant lenses.",
+        "rating": 4.1
+    },
+    {
+        "id": 10,
+        "name": "Fitness Band",
+        "price": 1999,
+        "category": "Electronics",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTNFYI8Wx_qJzsBL9jZo4-3NguSSKecK20zg&s",
+        "description": "Fitness band with step counter and heart rate monitor.",
+        "rating": 3.9
+    }
+]
